@@ -38,8 +38,7 @@
     "*.js",
     "*.d.ts"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "@ember/test-helpers": "^2.1.4",
     "@storybook/core": "6.3.0-rc.11",
@@ -54,9 +53,7 @@
   },
   "peerDependencies": {
     "@babel/core": "*",
-    "babel-plugin-ember-modules-api-polyfill": "^2.12.0",
-    "babel-plugin-htmlbars-inline-precompile": "2 || 3",
-    "ember-source": "^3.16.0"
+    "ti-ember-templates-loader": "*"
   },
   "engines": {
     "node": ">=10.13.0"
