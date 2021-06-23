@@ -78,20 +78,9 @@ function babel(config, options) {
   }
 
   var babelConfigPlugins = config.plugins || [];
-  var extraPlugins = [
-    // [
-    //   require.resolve('babel-plugin-htmlbars-inline-precompile'),
-    //   {
-    //     precompile: precompileWithPlugins,
-    //     modules: {
-    //       'ember-cli-htmlbars': 'hbs',
-    //       'ember-cli-htmlbars-inline-precompile': 'default',
-    //       'htmlbars-inline-precompile': 'default'
-    //     }
-    //   }
-    // ],
-    // [require.resolve('babel-plugin-ember-modules-api-polyfill')]
-  ];
+  var extraPlugins = [[require.resolve('babel-plugin-handlebars-inline-precompile')]];
+  console.log('adding plugins', extraPlugins);
+
   return _objectSpread(
     _objectSpread({}, config),
     {},

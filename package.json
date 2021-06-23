@@ -49,11 +49,11 @@
     "react-dom": "16.14.0",
     "read-pkg-up": "^7.0.1",
     "regenerator-runtime": "^0.13.7",
-    "ts-dedent": "^2.0.0"
+    "ts-dedent": "^2.0.0",
+    "babel-plugin-handlebars-inline-precompile": "https://github.com/thoughtindustries/babel-plugin-handlebars-inline-precompile.git#b2db4fe6913e6ce123e2c1b2fc7989209afd6f03"
   },
   "peerDependencies": {
-    "@babel/core": "*",
-    "ti-ember-templates-loader": "*"
+    "@babel/core": "*"
   },
   "engines": {
     "node": ">=10.13.0"
