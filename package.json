@@ -16,7 +16,7 @@
     "url": "https://opencollective.com/storybook"
   },
   "license": "MIT",
-  "main": "dist/cjs/client/index.js",
+  "main": "dist/esm/client/index.js",
   "module": "dist/esm/client/index.js",
   "types": "dist/ts3.9/client/index.d.ts",
   "typesVersions": {
@@ -62,5 +62,5 @@
     "access": "public"
   },
   "gitHead": "db9968a8a241edf423c5780e229eca3f5e5ce773",
-  "sbmodern": "dist/modern/client/index.js"
+  "sbmodern": "dist/esm/client/index.js"
 }
