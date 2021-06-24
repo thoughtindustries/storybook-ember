@@ -1,4 +1,4 @@
-# Storybook for Ember (TI Edition)
+# Storybook for Ember (Thought Industries Edition)
 
 This is an adaptation of Storybook for Ember to work with the Thought Industries codebase.
 
