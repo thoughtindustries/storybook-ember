@@ -1,4 +1,6 @@
-# Storybook for Ember
+# Storybook for Ember (TI Edition)
+
+This is an adaptation of Storybook for Ember to work with the Thought Industries codebase.
 
 Storybook for Ember is a UI development environment for your Ember components.
 With it, you can visualize different states of your UI components and develop them interactively.
